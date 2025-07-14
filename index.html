@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+
+        <div class="library">
+          <div class="item">
+            <div class="lib-item">
+              <img src="library_icon.png" alt="library" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="lib-box">
+            <div class="box">
+              <h3>Create your first playlist</h3>
+              <p>It's easy, we'll help you</p>
+              <button class="bb">Create Playlist</button>
+            </div>
+
+            <div class="box box2">
+              <h3>Let's find some podcasts to follow</h3>
+              <p>We'll keep you updated on new episodes</p>
+              <button class="bb">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar2">
+        <div class="sidebar21">
+          <div class="ic ic1"><i class="fa-solid fa-house"></i><p class="icp">Home</p></div>
+          <div class="ic ic2"><i class="fa-solid fa-magnifying-glass"></i><p class="icp">Search</p></div>
+          <div class="ic ic3"><i class="fa-regular fa-bookmark"></i><p class="icp">Your Library</p></div>
+          <div class="ic ic4"><i class="fa-brands fa-spotify"></i><p class="icp">Premium</p></div>
+          <div class="ic ic5"><i class="fa-solid fa-plus"></i><p class="icp">Create</p></div>
+        </div>
+      </div>
+
+      <div class="body">
+        <div class="navbar">
+          <div class="icon2">
+            <img src="backward_icon.png" alt="back" class="dir" />
+            <img src="forward_icon.png" alt="forward" class="dir hide" />
+          </div>
+          <div class="icon3">
+            <button class="bb hide">Explore Premium</button>
+            <button class="btn2">
+              <i class="fa-regular fa-circle-down"></i>Install App
+            </button>
+            <i class="fa-regular fa-user user"></i>
+          </div>
+        </div>
+
+        <div class="fistcard">
+          <h2 class="heading">Recently played</h2>
+          <div class="cards card101">
+            <img src="card1img.jpeg" alt="card1" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">
+              Your daily update of the most played tracks...
+            </p>
+          </div>
+        </div>
+
+        <div class="outbox">
+          <h2 class="heading">Spotify original & exclusive podcasts</h2>
+          <div class="cardbox">
+            <div class="cards">
+              <img src="card2img.jpeg" alt="card2" />
+              <p class="card-title">India India</p>
+              <p class="card-info">Best of the Indian Indie</p>
+            </div>
+
+            <div class="cards">
+              <img src="card3img.jpeg" alt="card1" />
+              <p class="card-title">India India</p>
+              <p class="card-info">Best of the Indian Indie</p>
+            </div>
+
+            <div class="cards">
+              <img src="card4img.jpeg" alt="card1" />
+              <p class="card-title">India India</p>
+              <p class="card-info">Best of the Indian Indie</p>
+            </div>
+
+            <div class="cards">
+              <img src="card2img.jpeg" alt="card1" />
+              <p class="card-title">India India</p>
+              <p class="card-info">Best of the Indian Indie</p>
+            </div>
+          </div>
+
+          <h2 class="heading">Trending now near you</h2>
+          <div class="cardbox">
+            <div class="cards">
+              <img src="card1img.jpeg" alt="card2" />
+              <p class="card-title">India India</p>
+              <p class="card-info">Best of the Indian Indie</p>
+            </div>
+
+            <div class="cards">
+              <img src="card5img.jpeg" alt="card1" />
+              <p class="card-title">India India</p>
+              <p class="card-info">Best of the Indian Indie</p>
+            </div>
+
+            <div class="cards">
+              <img src="card6img.jpeg" alt="card1" />
+              <p class="card-title">India India</p>
+              <p class="card-info">Best of the Indian Indie</p>
+            </div>
+
+            <div class="cards">
+              <img src="card5img.jpeg" alt="card1" />
+              <p class="card-title">India India</p>
+              <p class="card-info">Best of the Indian Indie</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="player">
+        <div class="album">
+          <img src="album_picture.jpeg" alt="pic" class="songpic" />
+          <div class="song">
+            <p class="songname">Daylight</p>
+            <p class="artist">David Kushner</p>
+          </div>
+          <div class="heart">
+            <img src="album_icon1.png" alt="heart" class="heart" />
+          </div>
+          <div class="mini">
+            <img src="album_icon2.png" alt="mini" class="miniplayer" />
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="controls11">
+            <div class="cont-icon1">
+              <img src="player_icon1.png" alt="1" class="play" />
+            </div>
+            <div class="cont-icon2">
+              <img src="player_icon2.png" alt="2" class="play" />
+            </div>
+            <div class="cont-icon3">
+              <img src="player_icon3.png" alt="3" class="play3" />
+            </div>
+            <div class="cont-icon4">
+              <img src="player_icon4.png" alt="4" class="play" />
+            </div>
+            <div class="cont-icon5">
+              <img src="player_icon5.png" alt="5" class="play" />
+            </div>
+          </div>
+
+          <div class="controls12">
+            <span class="current-time">00:00</span>
+            <input type="range" min="0" max="100" class="progressbar" />
+            <span class="total-time">3:33</span>
+          </div>
+        </div>
+
+        <div class="controls2">
+          <div class="play-icon1">
+            <img src="controls_icon1.png" alt="" />
+          </div>
+          <div class="play-icon2">
+            <img src="controld_icon2.png" alt="" />
+          </div>
+          <div class="play-icon3">
+            <img src="controls_icon3.png" alt="" />
+          </div>
+          <div class="play-icon4">
+            <img src="controls_icon4.png" alt="" />
+          </div>
+          <div class="play-icon5">
+            <img src="controls_icon5.png" alt="" />
+          </div>
+          <div class="range">
+            <input type="range" class="vol" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
